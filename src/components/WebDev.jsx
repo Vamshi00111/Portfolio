@@ -30,7 +30,8 @@ const WebDev = () => {
                 {/*title*/}
                 <a className="flex items-center gap-2 text-[20px] md:text-2xl font-bold">
                   <p>{project.title}</p>
-                  <FaExternalLinkAlt size={15} />
+                  { project.title != "Product Reccomendation System" &&
+                  <FaExternalLinkAlt size={15} />}
                 </a>
                 {/*description*/}
                 <p>{project.description}</p>

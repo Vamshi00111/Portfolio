@@ -34,11 +34,7 @@ const Projects = () => {
                 );
               })}
             </motion.div>
-            <WebDev />
-            <Multimedia />
-            <ItchGames />
-            <GraphicDesign/>
-          
+            <WebDev/>
           </div>
         </section>
     </main>

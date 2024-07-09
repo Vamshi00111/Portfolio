@@ -18,26 +18,26 @@ const EmailForm = () => {
     e.preventDefault();
     setSending(true);
 
-    emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        form.current,
-        import.meta.env.VITE_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("Message sent");
-          setSending(false);
-          setSent(true);
-        },
-        (error) => {
-          console.log(error.text);
-          setSending(false);
-          setError(true);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     import.meta.env.VITE_SERVICE_ID,
+    //     import.meta.env.VITE_TEMPLATE_ID,
+    //     form.current,
+    //     import.meta.env.VITE_PUBLIC_KEY
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       console.log("Message sent");
+    //       setSending(false);
+    //       setSent(true);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //       setSending(false);
+    //       setError(true);
+    //     }
+    //   );
   };
 
   return (

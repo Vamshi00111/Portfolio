@@ -8,7 +8,7 @@ const About = () => {
   return (
     <main>
       <Hero2 />
-      <Skills />
+      <Skills/>
     </main>
   );
 };

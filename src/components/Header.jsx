@@ -34,7 +34,7 @@ const Header = () => {
           <NavLink to="/about">
             <li>About</li>
           </NavLink>
-          <NavLink to="/portfolio">
+          <NavLink to="/projects">
             <li>Portfolio</li>
           </NavLink>
           <NavLink to="/contacts">
@@ -64,7 +64,7 @@ const Header = () => {
             <Link to="/about" onClick={handleClick}>
               <li>About</li>
             </Link>
-            <Link to="/portfolio" onClick={handleClick}>
+            <Link to="/projects" onClick={handleClick}>
               <li>Portfolio</li>
             </Link>
             <Link to="/contacts" onClick={handleClick}>

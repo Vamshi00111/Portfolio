@@ -10,14 +10,9 @@ import Npm from "../images/icons/npm.svg";
 import Jquery from "../images/icons/jquery.svg"
 import Git from "../images/icons/git.svg";
 import GitHub from "../images/icons/github.svg";
-import Csharp from "../images/icons/csharp.svg";
-import Unity from "../images/icons/unity.svg";
-import Photshop from "../images/icons/photoshop.svg";
-import Illustrator from "../images/icons/illustrator.svg";
-import AfterEffects from "../images/icons/aftereffects.svg";
-import PremierePro from "../images/icons/premiere.svg";
-import VisualStudioCode from "../images/icons/vscode.svg"
-import Vite from "../images/icons/vite.svg"
+import VisualStudioCode from "../images/icons/vscode.svg";
+import Vite from "../images/icons/vite.svg";
+import springboot from "../images/icons/springboot.svg"
 
 const skills = [
     { name: "HTML", icon: Html5, shadow: "shadow-orange-600/50", duration: 0.1 },
@@ -33,8 +28,8 @@ const skills = [
     { name: "VITE", icon: Vite, shadow: "shadow-violet-600/50", duration: 0.21},
     { name: "VSCODE", icon: VisualStudioCode, shadow: "shadow-cyan-600/50", duration: 0.22},
     { name: "GIT", icon: Git, shadow: "shadow-red-600/50", duration: 0.23},
-    { name: "GITHUB", icon: GitHub, shadow: "shadow-black/50", duration: 0.24}]
-    // { name: "C#", icon: Csharp, shadow: "shadow-purple-600/50", duration: 0.25},
+    { name: "GITHUB", icon: GitHub, shadow: "shadow-black/50", duration: 0.24},
+    { name: "SPRINGBOOT", icon: springboot, shadow: "shadow-green-600/50", duration: 0.25}]
     // { name: "UNITY", icon: Unity, shadow: "shadow-slate-600/50", duration: 0.26},
     // { name: "PHOTOSHOP", icon: Photshop, shadow: "shadow-sky-600/50", duration: 0.27},
     // { name: "ILLUSTRATOR", icon: Illustrator, shadow: "shadow-orange-600/50", duration: 0.28},

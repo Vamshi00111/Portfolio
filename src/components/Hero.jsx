@@ -4,7 +4,7 @@ import { fadeIn } from "../utils/variants";
 import { Link } from "react-router-dom";
 import TextSpan from "../utils/textSpan";
 import { Typewriter } from "react-simple-typewriter";
-import avatar from "../images/Georgie-Home.png";
+import avatar from "../images/Vamshi-Home.png";
 
 
 const Hero = () => {

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/variants";
 import TextSpan from "../utils/textSpan";
 import { FiDownload } from "react-icons/fi";
-import about from "../images/Georgie-About.png";
+import about from "../images/Vamshi-About.png";
 import Cv from "../constants/Resume_VamshiKrishna.pdf";
 
 const Hero2 = () => {

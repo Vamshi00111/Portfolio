@@ -6,14 +6,14 @@ const Logo = () => {
     alignItems: "center",
     justifyContent: "center",
     fontFamily: "Arial, sans-serif",
-    fontSize: "2rem",
+    fontSize: "1.7rem",
     color: "#5a5da6",
     fontWeight: "bold",
     margin: "20px 0",
   };
 
   const braceStyle = {
-    fontSize: "3rem",
+    fontSize: "2.4rem",
     color: "#4b4b4b",
   };
 

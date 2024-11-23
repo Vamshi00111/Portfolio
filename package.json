@@ -12,7 +12,7 @@
         "nc": "new-component"
     },
     "dependencies": {
-        "@next/third-parties": "^14.2.1",
+        "@next/swc-darwin-arm64": "^15.0.3",
         "@svgr/webpack": "^8.1.0",
         "@types/js-cookie": "^3.0.6",
         "@types/node": "18.14.0",

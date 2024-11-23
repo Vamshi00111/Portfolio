@@ -1,6 +1,5 @@
 import "../styles/global.css";
 import "../styles/reset.css";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { Metadata } from "next";
 import { DARK_COLORS, LIGHT_COLORS } from "theme";
@@ -32,7 +31,6 @@ function RootLayout({children}: { children: React.ReactNode }) {
           //@ts-ignore
           style={themeColors}
       >
-      <GoogleAnalytics gaId="G-JJBG91P2EL"/>
       <head>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet"/>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>

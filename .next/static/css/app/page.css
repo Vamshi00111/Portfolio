@@ -1,0 +1,1669 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Button/Button.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__exqP_ {
+  color: var(--color-primary);
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px 16px;
+  transition: var(--transition);
+}
+
+.Button_button__exqP_:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background-light);
+}
+
+@media (min-width: 768px) {
+  .Button_button__exqP_ {
+    padding: 16px 32px;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/SectionTitle/SectionTitle.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.SectionTitle_sectionTitle__jeg3S {
+  font-size: calc(24 / 16 * 1rem);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.SectionTitle_left__8ZdWt {
+  flex-direction: row;
+}
+
+.SectionTitle_right___epyi {
+  flex-direction: row-reverse;
+}
+
+@media (min-width: 768px) {
+  .SectionTitle_sectionTitle__jeg3S {
+    gap: 32px;
+  }
+}
+
+.SectionTitle_line__bos_f {
+  flex-grow: 1;
+  border-bottom: 1px solid;
+}
+
+.SectionTitle_constrained__jAXtC {
+  max-width: 650px;
+  margin-bottom: 32px;
+}
+
+.SectionTitle_desktop__QiP4t {
+  display: none;
+}
+
+.SectionTitle_mobile__Bb1ON {
+  display: flex;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/About/About.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.About_about__5Iyot {
+  display: grid;
+  padding: 32px;
+  padding-bottom: 0px;
+  row-gap: 80px;
+  grid-template-areas:
+    "aboutme"
+    "picture";
+}
+
+.About_aboutme__VFU2T {
+  grid-area: aboutme;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.About_description__bGNW1 {
+  font-weight: 400;
+  color: var(--color-text-regular);
+}
+
+.About_picture__8g_a9 {
+  grid-area: picture;
+  justify-self: center;
+  width: 300px;
+}
+
+.About_download__yDDbo {
+  align-self: start;
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .About_about__5Iyot {
+    grid-template-areas: "picture aboutme";
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    padding: 64px;
+  }
+
+  .About_aboutme__VFU2T {
+    justify-self: start;
+    max-width: min(400px, 100%);
+  }
+
+  .About_picture__8g_a9 {
+    width: min(50vw, 250px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .About_about__5Iyot {
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+    padding-bottom: 0px;
+  }
+
+  .About_picture__8g_a9 {
+    justify-self: end;
+    width: min(50vw, 500px);
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/College/College.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.College_image__AMWIq {
+  width: 100%;
+  max-width: 650px;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  line-height: 0;
+}
+
+.College_smallImage__Pw1wa {
+  display: none;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  right: 32px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+}
+
+.College_info__jeASi {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+}
+
+.College_degree__IZT10 {
+  color: var(--color-primary);
+  font-weight: 400;
+  font-size: calc(14 / 16 * 1rem);
+  margin-top: 16px;
+}
+
+.College_school__7o0jD {
+  margin-bottom: 16px;
+  font-size: calc(21 / 16 * 1rem);
+}
+
+.College_courses__e56_6 {
+  background-color: var(--color-background-light);
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.College_course__nNK_5 {
+  font-weight: 400;
+}
+
+.College_data__VQP9H {
+  margin-top: 16px;
+  display: flex;
+  gap: 64px;
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.College_time__oNZ3N {
+  font-weight: 400;
+}
+
+.College_gpa___iP_b {
+  color: var(--color-primary);
+}
+
+.College_college__Yap_D {
+  display: flex;
+  isolation: isolate;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.College_stretch__iXqpH {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .College_image__AMWIq {
+    display: none;
+  }
+
+  .College_smallImage__Pw1wa {
+    display: block;
+  }
+
+  .College_degree__IZT10 {
+    margin-left: 32px;
+    font-size: calc(16 / 16 * 1rem);
+  }
+
+  .College_school__7o0jD {
+    margin-left: 32px;
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  .College_courses__e56_6 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 8px;
+  }
+
+  .College_data__VQP9H {
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .College_college__Yap_D.College_left__u_ZQX {
+    flex-direction: row;
+  }
+
+  .College_college__Yap_D.College_right__z1QVV {
+    flex-direction: row-reverse;
+  }
+
+  .College_image__AMWIq {
+    width: auto;
+    height: 400px;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .College_smallImage__Pw1wa {
+    display: none;
+  }
+
+  .College_info__jeASi {
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .College_info__jeASi.College_left__u_ZQX {
+    align-items: flex-end;
+    margin-left: -32px;
+    margin-right: 0px;
+  }
+
+  .College_info__jeASi.College_right__z1QVV {
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: -32px;
+  }
+
+  .College_degree__IZT10 {
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  .College_degree__IZT10.College_left__u_ZQX .College_school__7o0jD.College_left__u_ZQX .College_data__VQP9H.College_left__u_ZQX {
+    margin-left: 32px;
+    margin-right: 0px;
+  }
+
+  .College_degree__IZT10.College_right__z1QVV .College_school__7o0jD.College_right__z1QVV .College_data__VQP9H.College_right__z1QVV {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+
+  .College_school__7o0jD {
+    font-size: calc(28 / 16 * 1rem);
+  }
+
+  .College_courses__e56_6.College_left__u_ZQX {
+    align-items: flex-end;
+  }
+
+  .College_courses__e56_6.College_right__z1QVV {
+    align-items: flex-start;
+  }
+
+  .College_data__VQP9H.College_left__u_ZQX {
+    align-self: flex-end;
+  }
+
+  .College_data__VQP9H.College_right__z1QVV {
+    align-items: flex-start;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Highlight/Highlight.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.Highlight_highlight__ffgmr {
+  color: var(--color-text-dark);
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Contact/Contact.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Contact_contact__k_BUL {
+  isolation: isolate;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact_notepad__7iSA6 {
+  z-index: 2;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  background-color: var(--color-sticky-content);
+  width: 100%;
+}
+
+.Contact_sticky__aUPYu {
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-sticky-top);
+}
+
+.Contact_input__hvWdQ {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  padding: 32px;
+  color: black;
+  width: min(400px);
+}
+
+.Contact_input__hvWdQ:focus {
+  outline: none;
+}
+
+.Contact_info__eD6L_ {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Contact_message__6eiCV {
+  z-index: 1;
+  background-color: var(--color-background-dark);
+  padding: 32px;
+  margin-left: -32px;
+  margin-right: -32px;
+  font-weight: 600;
+  padding-top: 48px;
+  margin-top: -16px;
+}
+
+.Contact_styledButton__3BHSK {
+  align-self: flex-start;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.Contact_notepadWrapper__5_Naq {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+}
+
+@media (min-width: 768px) {
+  .Contact_contact__k_BUL {
+    flex-direction: row;
+    padding: 64px;
+  }
+
+  .Contact_input__hvWdQ {
+    padding-right: 100px;
+  }
+
+  .Contact_message__6eiCV {
+    z-index: 2;
+    padding-top: 32px;
+    border-radius: 8px;
+    margin-right: 0px;
+    margin-left: -32px;
+    margin-top: 80px;
+    max-width: 500px;
+  }
+
+  .Contact_styledButton__3BHSK {
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Contact_info__eD6L_ {
+    gap: 32px;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Dots/Dots.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Dots_canvas__yCgNK {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-background-regular);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Dots_canvas__yCgNK {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Dots_canvas__yCgNK {
+    display: block;
+  }
+}
+
+.Dots_wrapper__FdEP4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--color-background-regular);
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Education/Education.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.Education_education__G4yrb {
+  background-color: var(--color-background-dark);
+  padding: 32px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .Education_education__G4yrb {
+    padding: 64px 64px;
+  }
+}
+
+.Education_collegeList__eoOzj {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Email/Email.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Email_email__01E1f {
+  position: fixed;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 24px;
+  z-index: 50;
+
+  bottom: 0;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .Email_email__01E1f {
+    display: flex;
+    right: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Email_email__01E1f {
+    right: 32px;
+  }
+}
+
+.Email_link__DWsTs {
+  color: var(--color-text-light);
+  transform: rotate(-90deg) translateX(50%) translateY(-10%);
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: var(--transition);
+}
+
+.Email_link__DWsTs:hover {
+  color: var(--color-primary);
+  transform: rotate(-90deg) translateX(50%) translateY(-10%) translateX(8px)
+    scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .Email_line__CFmx0 {
+    border: 1px solid var(--color-text-light);
+    height: 100px;
+    width: 0px;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Experiences/Experiences.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.Experiences_role__FYt3p {
+  color: var(--color-primary);
+  font-weight: 400;
+  font-size: calc(14 / 16 * 1rem);
+  margin-bottom: 8px;
+}
+
+.Experiences_items__315AQ {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.Experiences_item__fVdqy {
+  display: flex;
+  align-items: top;
+  position: relative;
+}
+
+.Experiences_timeline__dWjVn {
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-text-light);
+
+  left: 24px;
+}
+
+.Experiences_dotPrimary__bWkws {
+  height: 32px;
+  width: 32px;
+  border: 1px solid var(--color-text-light);
+  outline: 1px solid var(--color-text-light);
+  outline-offset: 8px;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+
+  margin: 8px;
+  margin-top: 32px;
+  margin-right: 24px;
+}
+
+.Experiences_dotSecondary__NAfa6 {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+
+  margin: 8px;
+  margin-top: 32px;
+  margin-right: 24px;
+}
+
+.Experiences_connector__P4o7I {
+  position: absolute;
+  height: 1px;
+  background-color: var(--color-primary);
+  width: 32px;
+  left: 32px;
+  top: 48px;
+}
+
+.Experiences_bullet__aw57w {
+  display: flex;
+  align-items: top;
+  position: relative;
+}
+
+.Experiences_dotCore__F_icM {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.Experiences_infos__9y46P {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 32px;
+}
+
+.Experiences_time__kuJIo {
+  font-weight: 400;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  font-size: calc(12 / 16 * 1rem);
+}
+
+.Experiences_description__1RM5m {
+  font-weight: 400;
+  max-width: 650px;
+}
+
+.Experiences_company__LHnWC {
+  font-size: calc(21 / 16 * 1rem);
+}
+
+.Experiences_experiences__d5372 {
+  background-color: var(--color-background-dark);
+  padding: 32px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.Experiences_image__n3CN4 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+}
+
+.Experiences_mobileImage__v0MEu {
+  display: initial;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+}
+
+@media (min-width: 768px) {
+  .Experiences_items__315AQ {
+    gap: 80px;
+  }
+
+  .Experiences_role__FYt3p {
+    font-size: calc(16 / 16 * 1rem);
+  }
+
+  .Experiences_timeline__dWjVn {
+    left: 264px;
+  }
+
+  .Experiences_dotPrimary__bWkws {
+    margin: 84px 48px;
+  }
+
+  .Experiences_dotSecondary__NAfa6 {
+    margin: auto 48px;
+  }
+
+  .Experiences_connector__P4o7I {
+    top: 100px;
+    left: 200px;
+    width: 64px;
+  }
+
+  .Experiences_infos__9y46P {
+    gap: 40px;
+  }
+
+  .Experiences_company__LHnWC {
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  .Experiences_experiences__d5372 {
+    padding: 64px 64px;
+  }
+
+  .Experiences_mobileImage__v0MEu {
+    display: none;
+  }
+
+  .Experiences_image__n3CN4 {
+    display: initial;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Experiences_role__FYt3p {
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  .Experiences_timeline__dWjVn {
+    left: 296px;
+  }
+
+  .Experiences_dotPrimary__bWkws {
+    margin: 84px 80px;
+  }
+
+  .Experiences_dotSecondary__NAfa6 {
+    margin: auto 80px;
+  }
+
+  .Experiences_connector__P4o7I {
+    width: 96px;
+  }
+
+  .Experiences_company__LHnWC {
+    font-size: calc(28 / 16 * 1rem);
+  }
+
+  .Experiences_experiences__d5372 {
+    gap: 32px;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Footer/Footer.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__4vzqH {
+    font-weight: 400;
+    background-color: var(--color-footer);
+    color: var(--color-primary);
+    padding: 16px;
+    text-align: center;
+    font-size: calc(14 / 16 * 1rem);
+}
+
+.Footer_styledgithublink__RcQP9 {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    width: 25%;
+    display: block;
+
+    & > * {
+        transition: var(--transition);
+    }
+
+    &:hover > * {
+        color: var(--color-primary);
+        transform: scale(1.1) translateY(-2px);
+    }
+}
+
+.Footer_styledgithublink__RcQP9 svg {
+    fill: white;
+}
+
+
+.Footer_styledgithublink__RcQP9:hover svg {
+    fill: var(--color-primary);
+}
+
+.Footer_styledgithubinfo__Sgz8b {
+
+    margin-top: 4px;
+
+    & > span {
+        display: inline-flex;
+        align-items: center;
+        margin: 0 7px;
+    }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Navigation/Navigation.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.Navigation_navLink__ZxeLk {
+  position: relative;
+  text-decoration: none;
+  color: var(--color-text-regular);
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.Navigation_navText__94QsM {
+  position: absolute;
+  color: var(--color-primary);
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  transition: clip-path 0.4s ease-out;
+}
+
+.Navigation_navLink__ZxeLk:hover .Navigation_navText__94QsM {
+  transition: clip-path 0.3s ease-in;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+}
+
+.Navigation_downloadLink__8HgQ_ {
+  text-decoration: none;
+  color: var(--color-text-dark);
+  font-size: calc(20 / 16 * 1rem);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Socials/Socials.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Socials_socials__BO9Rq {
+  position: fixed;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 24px;
+  z-index: 50;
+
+  bottom: 0;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .Socials_socials__BO9Rq {
+    display: flex;
+    left: 32px;
+  }
+}
+
+.Socials_iconLink__TUYQw {
+  text-decoration: none;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+.Socials_iconLink__TUYQw > * {
+  transition: var(--transition);
+}
+
+.Socials_iconLink__TUYQw:hover > * {
+  transform: scale(1.2) translateY(-4px);
+  color: var(--color-primary-hover);
+}
+
+.Socials_line__8HRP0 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .Socials_line__8HRP0 {
+    display: block;
+    border: 1px solid var(--color-text-light);
+    height: 100px;
+    width: 0px;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Header/Header.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/* Link styling */
+.Header_aLink__U31di {
+  text-decoration: underline;
+  color: var(--color-background-dark);
+}
+
+/* Navigation wrapper */
+.Header_navigationWrapper__UyBvJ {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Icon wrapper */
+.Header_iconWrapper__ZfFjh {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  font-size: 24px;
+}
+
+/* Logo styling */
+.Header_logo__1FRrW {
+  width: 43px;
+  height: 41px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .Header_logo__1FRrW {
+    width: 55px;
+    height: 52px;
+  }
+}
+
+/* Wrapper styling */
+.Header_wrapper__Ys_tD {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-background-blur);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+  padding: 8px 16px;
+}
+
+@media (min-width: 768px) {
+  .Header_wrapper__Ys_tD {
+    padding: 8px 32px;
+    transform: translateY(-100%);
+  }
+  .Header_wrapper__Ys_tD.Header_show__Lrm26 {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header_wrapper__Ys_tD {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+/* Navbar styling */
+.Header_navbar__p52_S {
+  display: none;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .Header_navbar__p52_S {
+    display: flex;
+    gap: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Header_navbar__p52_S {
+    gap: 36px;
+  }
+}
+
+/* Banner styling */
+.Header_banner__m4XWD {
+  grid-area: banner;
+  background-color: var(--color-primary);
+  color: var(--color-background-regular);
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .Header_banner__m4XWD {
+    padding: 8px 32px;
+  }
+}
+
+/* Sidebar styling */
+.Header_sidebar__Rg0oX {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  background-color: var(--color-background-regular);
+  padding: 32px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Header_sidebar__Rg0oX.Header_show__Lrm26 {
+  transform: translateX(0);
+}
+
+@media (min-width: 768px) {
+  .Header_sidebar__Rg0oX {
+    display: none;
+  }
+}
+
+/* Menu button styling */
+.Header_menuButton__mlszh {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .Header_menuButton__mlszh {
+    display: none;
+  }
+}
+
+/* Overlay styling */
+.Header_overlay__zmKdm {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.Header_overlay__zmKdm.Header_show__Lrm26 {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Link/Link.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Link_link__15_Y0 {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  pointer-events: all;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Hero/Hero.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero__1d92z {
+  align-self: center;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  min-height: calc(100vh - 150px);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.Hero_name__9gZfU {
+  white-space: nowrap;
+  font-size: calc(35 / 16 * 1rem);
+  margin-bottom: -10px;
+}
+
+@media (min-width: 768px) {
+  .Hero_name__9gZfU {
+    font-size: calc(64 / 16 * 1rem);
+    margin-bottom: -20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Hero_name__9gZfU {
+    font-size: calc(80 / 16 * 1rem);
+    margin-bottom: -20px;
+  }
+}
+
+.Hero_subText__5TaF8 {
+  color: var(--color-text-light);
+  font-size: calc(20 / 16 * 1rem);
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .Hero_subText__5TaF8 {
+    font-size: calc(35 / 16 * 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .Hero_subText__5TaF8 {
+    font-size: calc(40 / 16 * 1rem);
+  }
+}
+
+.Hero_text__HwgeS {
+  color: var(--color-text-regular);
+  font-weight: 400;
+  margin-bottom: -4px;
+}
+
+@media (min-width: 768px) {
+  .Hero_text__HwgeS {
+    margin-bottom: -8px;
+  }
+}
+
+.Hero_callToAction__mVXP_ {
+  margin-top: 32px;
+  pointer-events: all;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/MaxWidthWrapper/MaxWidthWrapper.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 1024px) {
+  .MaxWidthWrapper_maxWidthWrapper__Qu5zV {
+    max-width: -moz-max-content;
+    max-width: max-content;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Project/Project.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Project_project__r64Nl {
+  display: flex;
+  isolation: isolate;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Project_tiltingImage__TuYFx {
+  display: block;
+  width: auto;
+  height: 300px;
+}
+
+.Project_staticImage__WOqQa {
+  display: none;
+}
+
+.Project_tilt__MnggB {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.Project_description__31FX9 {
+  background-color: var(--color-background-light);
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: -32px;
+  margin-right: -32px;
+  font-weight: 400;
+}
+
+.Project_techs__cQI3d {
+  margin-top: 16px;
+  display: flex;
+  gap: 32px;
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.Project_stretch__HEg9U {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  max-width: 525px;
+}
+
+.Project_feature__cQhVf {
+  color: var(--color-primary);
+  font-weight: 400;
+  font-size: calc(14 / 16 * 1rem);
+  margin-top: 16px;
+}
+
+.Project_tech__geq5T {
+  font-weight: 400;
+  color: var(--color-primary);
+  text-transform: lowercase;
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.Project_info__HUojv {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+}
+
+.Project_name__eI2iE {
+  margin-bottom: 16px;
+  font-size: calc(21 / 16 * 1rem);
+}
+
+.Project_icon__Dkccz {
+  cursor: pointer;
+}
+
+.Project_links__r0MQa {
+  flex-shrink: 0;
+  display: flex;
+  gap: 32px;
+  margin-top: 16px;
+  color: var(--color-text-regular);
+}
+
+.Project_links__r0MQa > * {
+  transition: var(--transition);
+}
+
+.Project_website__9K7_m:hover {
+  color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+  .Project_feature__cQhVf {
+    margin-left: 32px;
+    font-size: calc(16 / 16 * 1rem);
+  }
+
+  .Project_name__eI2iE {
+    margin-left: 32px;
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  .Project_description__31FX9 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 8px;
+  }
+
+  .Project_techs__cQI3d {
+    margin-left: 32px;
+  }
+
+  .Project_icon__Dkccz {
+    font-size: 24px;
+  }
+
+  .Project_links__r0MQa {
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Project_project__r64Nl.Project_left__91kvU {
+    flex-direction: row-reverse;
+  }
+
+  .Project_project__r64Nl.Project_right__2tp11 {
+    flex-direction: row;
+  }
+
+  .Project_feature__cQhVf {
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  .Project_description__31FX9.Project_left__91kvU {
+    align-items: flex-end;
+  }
+
+  .Project_description__31FX9.Project_right__2tp11 {
+    align-items: flex-start;
+  }
+
+  .Project_techs__cQI3d.Project_left__91kvU,
+  .Project_links__r0MQa.Project_left__91kvU {
+    align-self: flex-start;
+  }
+
+  .Project_techs__cQI3d.Project_right__2tp11,
+  .Project_link__Xtj_G.Project_right__2tp11 {
+    align-items: flex-end;
+  }
+
+  .Project_info__HUojv {
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Project_info__HUojv.Project_right__2tp11 {
+    align-items: flex-end;
+    margin-left: -32px;
+    margin-right: 0px;
+  }
+
+  .Project_info__HUojv.Project_left__91kvU {
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: -32px;
+  }
+
+  .Project_feature__cQhVf.Project_left__91kvU,
+  .Project_name__eI2iE.Project_left__91kvU,
+  .Project_techs__cQI3d.Project_left__91kvU,
+  .Project_links__r0MQa.Project_left__91kvU {
+    margin-left: -32px;
+    margin-right: 0px;
+  }
+
+  .Project_feature__cQhVf.Project_right__2tp11,
+  .Project_name__eI2iE.Project_right__2tp11,
+  .Project_techs__cQI3d.Project_right__2tp11,
+  .Project_links__r0MQa.Project_right__2tp11 {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .Project_staticImage__WOqQa {
+    display: block;
+  }
+
+  .Project_tiltingImage__TuYFx {
+    display: none;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/ProjectGrid/ProjectGrid.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.ProjectGrid_projectGrid__eZojB {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+}
+
+.ProjectGrid_grid__dYRXP {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1080px;
+  gap: 16px;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.ProjectGrid_projectThumbnail__d3DjV {
+  position: relative;
+  z-index: 1;
+
+  border-radius: 8px;
+  display: inline;
+  width: 100%;
+  height: 200px;
+  transition: all 0.3s ease-in;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.ProjectGrid_projectThumbnail__d3DjV:hover {
+  cursor: pointer;
+  transition: transform 0.1s ease-out;
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.ProjectGrid_subTitle__CJOf8 {
+  margin-bottom: 32px;
+  color: var(--color-primary);
+}
+
+.ProjectGrid_subText__Ur7QY {
+  color: var(--color-text-light);
+  font-size: calc(18 / 16 * 1rem);
+}
+
+@media (min-width: 768px) {
+  .ProjectGrid_grid__dYRXP {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  .ProjectGrid_projectGrid__eZojB {
+    margin-top: 24px;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProjectGrid_subText__Ur7QY {
+    display: none;
+  }
+
+  .ProjectGrid_grid__dYRXP {
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ProjectGrid_projectGrid__eZojB {
+    margin-top: 24px;
+    padding: 16px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Projects/Projects.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Projects_projects__jsAo6 {
+  background-color: var(--color-background-dark);
+  padding: 32px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+@media (min-width: 1080px) {
+  .Projects_projects__jsAo6 {
+    gap: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Projects_projects__jsAo6 {
+    padding: 64px 64px;
+  }
+}
+
+.Projects_projectList__vndJl {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Home/Home.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Home_grid__AaIHh {
+  display: flex;
+  flex-direction: column;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Splash/Splash.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Splash_zoomIn__AiVvD {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes Splash_zoomOut__kLAU_ {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes Splash_fadeOut__5xatl {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.Splash_splash__1pUaB {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999999;
+  background-color: var(--color-background-dark);
+
+  pointer-events: none;
+  animation: Splash_fadeOut__5xatl 500ms 3s ease-in-out forwards;
+}
+
+.Splash_logo__fdwMz {
+  width: 104px;
+  height: 100px;
+  flex-shrink: 0;
+
+  animation: Splash_zoomIn__AiVvD 800ms ease-in-out, Splash_zoomOut__kLAU_ 500ms 2s ease-in-out forwards;
+}
+
+@media (min-width: 768px) {
+  .Splash_logo__fdwMz {
+    width: 154px;
+    height: 150px;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Technical/Technical.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.Technical_technical__7hYwo {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  background-color: var(--color-background-dark);
+  padding: 32px;
+}
+
+.Technical_technicalTitle__5dJTB {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.Technical_display__YC3la {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: var(--color-background-light);
+
+  padding: 32px;
+  height: 320px;
+
+  margin-left: -32px;
+  margin-right: -32px;
+  border-radius: 0px;
+}
+
+.Technical_title__zVc58 {
+  color: var(--color-primary);
+}
+
+.Technical_content__wPXk3 {
+  font-weight: 400;
+}
+
+.Technical_level__aljui {
+  display: flex;
+  margin-top: auto;
+  gap: 8px;
+}
+
+.Technical_skillList__L9zH4 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.Technical_options__aEvB7 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.Technical_option__EoEVn {
+  cursor: pointer;
+  background-color: var(--color-text-light);
+  color: var(--color-background-dark);
+  text-align: center;
+  padding: 4px 12px;
+  font-size: calc(12 / 16 * 1rem);
+  transition: var(--transition);
+  border-radius: 2px;
+}
+
+.Technical_active__4XDyZ {
+  background-color: var(--color-primary);
+}
+
+.Technical_star__yB231 {
+  width: 16px;
+  height: 16px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.Technical_star__yB231.Technical_empty__czLpF {
+  background-color: var(--color-text-light);
+}
+
+@media (min-width: 768px) {
+  .Technical_technical__7hYwo {
+    padding: 64px;
+  }
+
+  .Technical_display__YC3la {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 8px;
+  }
+
+  .Technical_options__aEvB7 {
+    padding: 4px 0px;
+    font-size: calc(14 / 16 * 1rem);
+  }
+}
+
+@media (min-width: 1080px) {
+  .Technical_technical__7hYwo {
+    flex-direction: row;
+  }
+
+  .Technical_technicalTitleDesktop__20dpB {
+    display: flex;
+  }
+
+  .Technical_technicalTitleMobile__hzbem {
+    display: none;
+  }
+
+  .Technical_display__YC3la {
+    max-width: 700px;
+    padding-right: 250px;
+  }
+
+  .Technical_skillList__L9zH4 {
+    max-width: 600px;
+    margin-left: -232px;
+  }
+
+  .Technical_options__aEvB7 {
+    justify-content: flex-end;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Title/Title.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Title_title__rZh60 {
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+

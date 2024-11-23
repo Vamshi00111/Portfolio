@@ -1,8 +1,8 @@
 export declare function RGBComponent(val: number): number;
 export declare function alphaComponent(val: number): number;
-export declare function getNumberValidator(): (<T>(val: T, attr: string) => void | T) | undefined;
-export declare function getNumberOrArrayOfNumbersValidator(noOfElements: number): (<T>(val: T, attr: string) => void | T) | undefined;
-export declare function getNumberOrAutoValidator(): (<T extends string>(val: T, attr: string) => void | T) | undefined;
+export declare function getNumberValidator(): (<T>(val: T, attr: string) => T | void) | undefined;
+export declare function getNumberOrArrayOfNumbersValidator(noOfElements: number): (<T>(val: T, attr: string) => T | void) | undefined;
+export declare function getNumberOrAutoValidator(): (<T extends string>(val: T, attr: string) => T | void) | undefined;
 export declare function getStringValidator(): ((val: any, attr: string) => any) | undefined;
 export declare function getStringOrGradientValidator(): ((val: any, attr: string) => any) | undefined;
 export declare function getFunctionValidator(): ((val: any, attr: string) => any) | undefined;

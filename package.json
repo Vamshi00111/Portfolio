@@ -9,7 +9,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "nc": "new-component"
+        "nc": "new-component",
+        "export": "next export"
     },
     "dependencies": {
         "@next/swc-darwin-arm64": "^15.0.3",

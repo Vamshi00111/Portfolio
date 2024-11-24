@@ -3,7 +3,7 @@
     "version": "2.1.0",
     "private": true,
     "type": "commonjs",
-    "homepage": "http://Vamshi00111.github.io/Portfolio/",
+    "homepage": "http://Vamshi00111.github.io/",
     "scripts": {
         "dev": "next dev",
         "build": "next build",

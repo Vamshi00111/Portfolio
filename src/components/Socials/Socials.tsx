@@ -3,7 +3,8 @@ import {
   AiOutlineCodepen,
   AiOutlineTwitter,
 } from "react-icons/ai";
-import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import Link from "next/link";
 import styles from "./Socials.module.css";
 import clsx from "clsx";
@@ -11,7 +12,7 @@ import clsx from "clsx";
 const enum ESocials {
     GITHUB_URL = "https://github.com/Vamshi00111/",
     INSTAGRAM_URL = "https://www.instagram.com/vamshi.ananthasetty/",
-    TWITTER_URL = "",
+    LEETCODE_URL = "https://leetcode.com/u/Vamshi_Ananthasetty/",
     LINKEDIN_URL = "https://www.linkedin.com/in/vamshiananthasetty/",
 }
 
@@ -20,10 +21,24 @@ export const SocialIcons: React.FC = () => {
     <>
       <IconLink
         className={styles.iconLink}
+        href={ESocials.LINKEDIN_URL}
+        target="_blank"
+      >
+        <FaLinkedin />
+      </IconLink>
+      <IconLink
+        className={styles.iconLink}
         href={ESocials.GITHUB_URL}
         target="_blank"
       >
-        <FaGithubAlt />
+        <FaGithub />
+      </IconLink>
+      <IconLink
+        className={styles.iconLink}
+        href={ESocials.LEETCODE_URL}
+        target="_blank"
+      >
+        <SiLeetcode />
       </IconLink>
       <IconLink
         className={styles.iconLink}
@@ -31,20 +46,6 @@ export const SocialIcons: React.FC = () => {
         target="_blank"
       >
         <AiFillInstagram />
-      </IconLink>
-      <IconLink
-        className={styles.iconLink}
-        href={ESocials.TWITTER_URL}
-        target="_blank"
-      >
-        <AiOutlineTwitter />
-      </IconLink>
-      <IconLink
-        className={styles.iconLink}
-        href={ESocials.LINKEDIN_URL}
-        target="_blank"
-      >
-        <FaLinkedinIn />
       </IconLink>
     </>
   );
